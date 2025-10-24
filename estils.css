@@ -1,0 +1,132 @@
+/*Titols menus*/
+h1{
+    color: #000000;
+    font-size: 80px;
+    font-family: "Noto Sans Cham ";
+}
+h2{
+font-family: "sans-serif ";
+    color: #000000;
+}
+h3{
+    font-size: 25px;
+}
+h4{
+    color: #ffffff;
+    background: black;
+}
+/*Titol portada*/
+h5{
+    color: #000000;
+    font-size: 80px;
+    font-family: "Noto Sans Cham ";
+    text-align: left;
+}
+.galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    margin: 40px;
+}
+/*Items de els dos menus*/
+.item{
+    background-color: #d4e1de;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 100px;
+    border-radius: 10px;
+}
+.galeriaportada {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 80px;
+}
+
+.destacat:hover{
+    background-color: #b1b1b1;
+    color: white;
+}
+/*Capcelera de els dos menus*/
+.capcelera{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 200px;
+    row-gap: 10px;
+    margin-left: 20px;
+}
+/*Capcelera portada*/
+.capcalera{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+align-items: center;
+margin-top: 20px;
+}
+
+
+.cssbuttons-io-button {
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    color: white;
+    font-family: inherit;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 17px;
+    border-radius: 10em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: inline-flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+    box-shadow: 0 0 1.6em rgba(183, 33, 255,0.3),0 0 1.6em hsla(191, 98%, 56%, 0.3);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.cssbuttons-io-button .icon {
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 10em;
+    right: 0.3em;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+}
+
+.cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #bf8ad8;
+}
+
+.cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+    transform: scale(0.9);
+}
+
+a{
+    text-decoration: none;
+}
+
+img:hover{
+    transform: translateY(-5px) scale(1.1);
+    transition-duration: 500ms;
+
+
+}
+
