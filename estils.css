@@ -22,6 +22,11 @@ h5{
     font-family: "Noto Sans Cham ";
     text-align: left;
 }
+
+/*img{*/
+/*    width: 350px;*/
+/*    height: 350px;*/
+/*}*/
 .galeria {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -50,7 +55,8 @@ h5{
 /*Capcelera de els dos menus*/
 .capcelera{
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    grid-template-columns: 1fr 3fr 1fr;
     gap: 200px;
     row-gap: 10px;
     margin-left: 20px;
@@ -58,9 +64,9 @@ h5{
 /*Capcelera portada*/
 .capcalera{
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 3fr;
 align-items: center;
-margin-top: 20px;
+margin-left: 50px;
 }
 
 
@@ -128,5 +134,40 @@ img:hover{
     transition-duration: 500ms;
 
 
+}
+
+
+
+
+.capceleracistella{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 40px;
+    text-align: center;
+
+}
+
+.itemcistella{
+    background-color: #bdbbfb;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 100px;
+    border-radius: 10px;
+    display: grid;
+
+}
+
+
+
+img.producte {
+    width: 350px;
+    height: 350px;
+}
+
+.Cistella{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 40px;
 }
 
