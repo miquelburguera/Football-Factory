@@ -23,7 +23,7 @@
 
         <button type="button" class="btn btn-primary" onclick="carrito()">
 
-            <svg id = carro xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+            <svg id = "carro" xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
                 <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
             </svg>
 
@@ -97,33 +97,35 @@
     <div class="item destacat">
 
         <img src="img/sabates%20puma.png" class="producte">
-
         <h2 id="sabates4">Bota Puma Future 8 Ultimate FG</h2>
-        <h3>229'99</h3><h4 id="spreu4">139'99€</h4>
-
-                <button class="cssbuttons-io-button" onclick="Comprar('Bota Puma   ', 139.99)"> Afegir a la cistella
-                    <div class="icon">
-                        <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="currentColor"></path></svg>
-                    </div>
-                </button>
+        <h3>229'99</h3>
+        <h4 id="spreu4">139'99€</h4>
+        <button class="cssbuttons-io-button" onclick="Comprar('Bota Puma   ', 139.99)"> Afegir a la cistella
+            <div class="icon">
+                <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="currentColor"></path></svg>
+            </div>
+        </button>
     </div>
 
 </div>
+<div id="idcistella" hidden="true">
+    <div  class="itemcistella">
+        <div class="capceleracistella" >
+            <img src="img/logo2.png" height="70" width="250"/>
+            <h1>CISTELLA DE LA COMPRA</h1>
+        </div>
+        <div class="Cistella" >
+            <div id="Cistella"></div>
+<!--            <div id="comprarproductes"></div>-->
+            <h6>PREU TOTAL:</h6>
+            <div id="preuTotal"></div>
+            <button type="button" class="buidarcistella" onclick="buidar()">Borrar cistella</button>
 
-<div class="itemcistella">
-    <div class="capceleracistella" >
-        <img src="img/logo2.png" height="70" width="250"/>
+        </div>
 
-        <h1>CISTELLA DE LA COMPRA</h1>
     </div>
-
-    <div class="Cistella" >
-    <div id="Cistella"></div>
-    <div id="comprarproductes"></div>
-     <h6>PREU TOTAL:</h6> <div id="preuTotal"></div>
-    </div>
-
 </div>
+
 
 
 
